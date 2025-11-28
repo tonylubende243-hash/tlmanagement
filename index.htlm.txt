@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>TL Management | Travel | Visa | Études | Immigration</title>
+  <meta name="description" content="TL Management accompagne vos projets de voyage, visa, études et immigration avec des solutions fiables et personnalisées.">
+
+  <!-- Open Graph (pour un meilleur aperçu sur les réseaux sociaux) -->
+  <meta property="og:title" content="TL Management">
+  <meta property="og:description" content="Accompagnement pour voyage, visa, études et immigration.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.tl-management.example">
+  <meta property="og:image" content="https://www.tl-management.example/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico">
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>TL Management</h1>
+    <p>Travel • Visa • Études • Immigration</p>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#a-propos">À propos</a></li>
+        <li><a href="#temoignages">Témoignages</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="services">
+      <h2>Nos services</h2>
+      <ul>
+        <li>Conseil voyage et itinéraires</li>
+        <li>Assistance et préparation de dossiers de visa</li>
+        <li>Orientation pour études à l’étranger</li>
+        <li>Accompagnement immigration</li>
+      </ul>
+    </section>
+
+    <section id="a-propos">
+      <h2>À propos</h2>
+      <p>Nous aidons les clients à réaliser leurs projets internationaux avec transparence et efficacité.</p>
+    </section>
+
+    <section id="temoignages">
+      <h2>Témoignages</h2>
+      <blockquote>
+        “Service rapide et fiable pour mon visa étudiant.” — A.
+      </blockquote>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email : contact@tl-management.example</p>
+      <p>Téléphone : +243 XX XXX XX XX</p>
+      <p>Adresse : Ngaliema, Kinshasa, RDC</p>
+      <form action="/envoyer" method="post">
+        <label for="nom">Nom</label>
+        <input id="nom" name="nom" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <small>&copy; 2025 TL Management. Tous droits réservés.</small>
+  </footer>
+
+  <!-- JS si nécessaire -->
+  <script src="/app.js"></script>
+</body>
+</html>
